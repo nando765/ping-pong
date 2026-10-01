@@ -1,0 +1,11 @@
+/[Bb]uild/ 
+/[Ll]ibrary/ 
+/[Mm]emoryCaptures/ 
+/[Ll]ogs/ 
+/[Uu]ser[Ss]ettings/ 
+.vs/ 
+*.sln 
+*.csproj 
+*.slnx 
+Temp/ 
+.plastic/
