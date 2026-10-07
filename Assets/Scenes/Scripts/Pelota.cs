@@ -23,6 +23,12 @@ public class Pelota : MonoBehaviour
         rb.AddForce(direccion * velocidadInicial, ForceMode2D.Impulse);
     }
 
+    // Suena cuando la pelota choca con una pala o con una pared
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        GestorSonido.Instancia.SonarRebote();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "GolIzquierda")
