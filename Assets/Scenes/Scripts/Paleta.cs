@@ -4,7 +4,7 @@ public class Paleta : MonoBehaviour
 {
     public bool esJugador1 = true;
     public float velocidad = 10f;
-    public float limiteY = 3.8f;
+    public float limiteY = 1.4f;
 
     void Update()
     {
